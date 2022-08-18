@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domki na Mazurach</title>
+    <meta name="description"
+        content="Domki wypoczynkowe na Mazurach nad Jeziorem Dejnowo. Miejsce dla tych, którzy chcą odpocząć wśród jezior, lasów i tęsknią za czystym powietrzem.
+Idealne dla rodzin z dziećmi, przyjaciół, par, grzybiarzy, miłośników pieszych wędrówek, jazdy na rowerze, wędkarstwa i kajakarstwa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="navbar section--light">
+        <div class="navbar__wrapper section__wrapper">
+            <div class="logo">
+                <a href="index.html" class="logo__link">
+                    <svg class="logo__icon">
+                        <use href="./images/icons/sprite.svg#logo"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <ul class=" navbar__menu">
+                <li class="navbar__menu-item"><a href="#" class="navbar__menu-link page-active">Home</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__menu-link">Atrakcje w okolicy</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__menu-link">Kontakt</a></li>
+            </ul>
+            <!-- Start mobile menu -->
+            <button class="mobile-menu__open-btn" data-mobile-menu--open>
+                <svg class="mobile-menu__icon">
+                    <use href="./images/icons/sprite.svg#menu"></use>
+                </svg>
+            </button>
+            <div class="mobile-menu mobile-menu--is-hidden" data-mobile-menu>
+                <div class="mobile-menu__backdrop">
+                    <div class="mobile-menu__window">
+                        <button class="mobile-menu__close-btn" type="button" data-mobile-menu--close>
+                            <svg class="mobile-menu__close-icon">
+                                <use href="./images/icons/sprite.svg#close"></use>
+                            </svg>
+                        </button>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link mobile-menu__link--active" href="#">Home</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">Atrakcje w okolicy</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">Kontakt</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End mobile menu -->
+        </div>
+    </nav>
+    <header class="header section--light">
+        <div class="section__wrapper">
+            <h1 class="header__title">Twoja ucieczka od miejskiego życia</h1>
+            <picture>
+                <source srcset="
+                ./images/tree-with-a-white-background-desktop.png 1x,
+                ./images/tree-with-a-white-background-desktop@2x.png 2x,
+                      " media="(min-width: 768px)" />
+                <source srcset="
+                    ./images/tree-with-a-white-background-mobile.png 1x, 
+                    ./images/tree-with-a-white-background-mobile@2x.png 2x" media="(min-width: 280px)" />
+                <img class="header__image" src="./images/tree-with-a-white-background-mobile.png" alt="green tree" />
+            </picture>
+            <p class="header__text">Wypoczynek, relaks, spokój</p>
+            <a class="header__link" href="#">Zarezerwuj już teraz</a>
+        </div>
+    </header>
+    <main>
+        <section class="about section--dark">
+            <div class="about--wrapper section__wrapper">
+                <div class="about__img--wrapper">
+                    <picture>
+                        <source srcset="
+                                        ./images/domek_mobile.jpg 1x, 
+                                        ./images/domek_mobile@2x.jpg 2x" media="(min-width: 200px)" />
+                        <img class="about__img" src="./images/./images/domek_mobile.jpg"
+                            alt="Zdjęcie domków do wynajęcia" />
+                    </picture>
+                </div>
+                <div class="about__text--wrapper">
+                    <h2 class="about__tittle about__text">Domki wypoczynkowe na Mazurach nad Jeziorem Dejnowo</h2>
+                    <p class="about__text about__paragraph">Miejsce dla tych, którzy chcą odpocząć wśród jezior, lasów i
+                        tęsknią za czystym
+                        powietrzem.</p>
+                    <p class="about__text about__paragraph">Idealne dla rodzin z dziećmi, przyjaciół, par, grzybiarzy,
+                        miłośników pieszych
+                        wędrówek, jazdy na
+                        rowerze, wędkarstwa i
+                        kajakarstwa.</p>
+                </div>
+            </div>
+        </section>
+        <section class="offer section--light">
+            <div class="section__wrapper">
+                <div class="offer__description">
+                    <p class="offer__text">
+                        <strong class="text-key--first">Całoroczne domki</strong> położone są w wiosce
+                        <strong class="text-key--second">Pilec</strong> na <strong
+                            class="text-key--second">Mazurach</strong>, w odległości 18 km od Mrągowa i
+                        2,9 km od Świętej Lipki, 2
+                        minuty spacerem od plaży.
+                    </p>
+
+                    <p class="offer__text">Pilec to wieś w Polsce położona w województwie warmińsko-mazurskim, w
+                        powiecie kętrzyńskim, w gminie Reszel.
+                        Przez Pilec przepływa rzeka Dajna, którą biegnie szlak kajakowy Mrągowo – Święta Lipka.
+                        W północnej części wsi znajduje się jezioro Dejnowa, rozciągające się aż do Świętej Lipki.</p>
+
+                    <p class="offer__text">75 km od obiektu znajduje się najbliższy Port Lotniczy Olsztyn-Mazury.
+                    </p>
+                    <p class="offer__text">W każdym z dwóch domków znajdują się <strong class="text-key--second">dwa
+                            oddzielne pokoje</strong> na piętrze, a na parterze
+                        <strong class="text-key--second">salon</strong> z częścią wypoczynkową -
+                        rozkładaną sofą, telewizorem, a także <strong class="text-key--second">aneks</strong>,
+                        wyposażony w lodówkę oraz wszystkie przybory kuchenne, czajnik, kuchenkę
+                        elektryczną. W każdym domku prywatna łazienka z prysznicem.
+
+                    <p class="offer__text"><strong class="text-key--second">Domek przeznaczony dla 5
+                            osób.</strong></p>
+
+                    <p class="offer__text">Cena domku za dobę przy pobycie <strong class="text-key--second">do 7
+                            dni</strong>: 450 zł, a <strong class="text-key--second">powyżej 7 dni</strong>: 400
+                        zł.</p>
+                    </p>
+                </div>
+                <h3 class="offer__heading">Do dyspozycji gości:</h3>
+                <ul class="offer__list">
+                    <li class="offer__list-item"><strong class="text-key--second">szeroka prywatna plaża</strong>
+                        znajdująca się jedyne 150m od domków,</li>
+                    <li class="offer__list-item"><strong class="text-key--second">pomost</strong> przy plaży,</li>
+                    <li class="offer__list-item"><strong class="text-key--second">rowery wodne,</strong></li>
+                    <li class="offer__list-item"><strong class="text-key--second">kajaki</strong> - dla wytrwałych
+                        kajakarzy spływ na południe do Mrągowa,</li>
+                    <li class="offer__list-item"><strong class="text-key--second">plac zabaw</strong> dla dzieci (domek
+                        ze zjeżdżalnią, trampolina, huśtawki, ścianka wspinaczkowa),</li>
+                    <li class="offer__list-item">miejsce na ognisko/ grilla</li>
+                    <li class="offer__list-item">pościel (ręczniki we własnym zakresie),</li>
+                    <li class="offer__list-item">prywatny parking,</li>
+                </ul>
+                <div class="offer__link--wrapper">
+                    <a class="header__link" href="#">Zarezerwuj już teraz</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="attractions section--dark">
+            <div class="section__wrapper">
+                <h2 class="attractions__heading">Atrakcje w okolicy</h2>
+                <a href="#" class="attractions__link">Czytaj więcej</a>
+            </div>
+        </section>
+        <section class="gallery section--light">
+            <div class="section__wrapper">
+                <h2 class="gallery__heading">Galeria</h2>
+                <div class="gallery__slider sliders">
+                    <div class="gallery__img--wrapper horizontal-img">
+                        <picture>
+                            <source srcset="
+                                                            ./images/gallery/img1.jpg 1x,  
+                                                            ./images/gallery/img1@2x.jpg 2x"
+                                media="(min-width: 200px)" />
+                            <img class="gallery__img 
+" src="./images/gallery/img1.jpg" alt="Zdjęcie z galeri zdjęć domków" />
+                        </picture>
+                    </div>
+                    <div class="gallery__img--wrapper">
+                        <picture>
+                            <source srcset="
+                                                            ./images/gallery/img2.jpg 1x,  
+                                                            ./images/gallery/img2@2x.jpg 2x"
+                                media="(min-width: 200px)" />
+                            <img class="gallery__img" src="./images/gallery/img2.jpg"
+                                alt="Zdjęcie z galeri zdjęć domków" />
+                        </picture>
+                    </div>
+                    <div class="gallery__img--wrapper horizontal-img">
+                        <picture>
+                            <source srcset="
+                                                            ./images/gallery/img3.jpg 1x,  
+                                                            ./images/gallery/img3@2x.jpg 2x"
+                                media="(min-width: 200px)" />
+                            <img class="gallery__img" src="./images/gallery/img3.jpg"
+                                alt="Zdjęcie z galeri zdjęć domków" />
+                        </picture>
+                    </div>
+                    <div class="gallery__img--wrapper horizontal-img">
+                        <picture>
+                            <source srcset="
+                                                                                ./images/gallery/img1.jpg 1x,  
+                                                                                ./images/gallery/img1@2x.jpg 2x"
+                                media="(min-width: 200px)" />
+                            <img class="gallery__img 
+                    " src="./images/gallery/img1.jpg" alt="Zdjęcie z galeri zdjęć domków" />
+                        </picture>
+                    </div>
+                    <div class="gallery__img--wrapper">
+                        <picture>
+                            <source srcset="
+                                                                                ./images/gallery/img2.jpg 1x,  
+                                                                                ./images/gallery/img2@2x.jpg 2x"
+                                media="(min-width: 200px)" />
+                            <img class="gallery__img" src="./images/gallery/img2.jpg"
+                                alt="Zdjęcie z galeri zdjęć domków" />
+                        </picture>
+                    </div>
+                    <div class="gallery__img--wrapper horizontal-img">
+                        <picture>
+                            <source srcset="
+                                                                                ./images/gallery/img3.jpg 1x,  
+                                                                                ./images/gallery/img3@2x.jpg 2x"
+                                media="(min-width: 200px)" />
+                            <img class="gallery__img" src="./images/gallery/img3.jpg"
+                                alt="Zdjęcie z galeri zdjęć domków" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section--footer">
+        <div class="section__wrapper">
+            <div class="footer__up--wrapper">
+                <div class="logo">
+                    <a href="index.html" class="logo__link">
+                        <svg class="logo__icon" width="196" height="43">
+                            <use href="./images/icons/sprite.svg#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link page-active">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Atrakcje w okolicy</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer__down--wrapper">
+                <div class="social__icons">
+                    <a href="#" class="social__icons-link">
+                        <svg class="social__icon" width="50" height="50">
+                            <use href="./images/icons/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__icons-link">
+                        <svg class="social__icon" width="50" height="50">
+                            <use href="./images/icons/sprite.svg#fb"></use>
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer__copyright"></p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/footer-copyright.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>
