@@ -1,0 +1,28 @@
+.attractions {
+  padding: 38px 0;
+  text-align: center;
+  &__heading {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: $fontSizeHeadingBig;
+    line-height: 1.2;
+    color: $colorFont1;
+  }
+  &__link {
+    font-size: $fontSizeSecondaryMobile;
+    line-height: 1.25;
+    color: $colorFont3;
+  }
+}
+@media screen and (min-width: 768px) {
+  .attractions {
+    padding: 90px 0;
+
+    &__heading {
+      font-size: $fontSizeHeaderDesktop;
+    }
+    &__link {
+      font-size: $fontSizeLabelDesktop;
+    }
+  }
+}

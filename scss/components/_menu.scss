@@ -1,0 +1,138 @@
+.mobile-menu {
+  transition: $mainTransition;
+  &--is-hidden {
+    display: none;
+  }
+  &__backdrop {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 100vh;
+  }
+  &__window {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: $bgColorDark;
+  }
+  &__open-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  &__icon {
+    width: 26px;
+    height: 8px;
+  }
+  &__list {
+    position: absolute;
+    top: 123px;
+    width: 100%;
+  }
+  &__item {
+    height: 42px;
+    width: 100%;
+    border: solid 1px #fff;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    &:last-of-type {
+      border-bottom: solid 1px #fff;
+    }
+  }
+  &__link {
+    padding-left: 21px;
+    width: 100%;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: $colorFont3;
+    font-weight: $fontBold;
+    font-size: $fontSizeSecondary;
+    &--active {
+      color: $colorFont1;
+    }
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+  &__close-btn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 23px;
+    right: 28px;
+  }
+  &__close-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+.menu {
+  list-style: none;
+  padding: 40px 0;
+  &__item {
+    &:not(:last-of-type) {
+      margin-bottom: 34px;
+    }
+  }
+  &__link {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.215;
+    color: $colorFont1;
+    &:hover,
+    &:focus {
+      color: $colorFont4;
+    }
+    
+  }
+}
+
+.page-active{
+&:hover::after,
+    &:focus::after {
+      background-color: $colorBg1;
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      background-color: $colorTheme1;
+    }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    &__open-btn {
+      display: none;
+    }
+  }
+  .menu {
+  padding: 0;
+  display: flex;
+  &__item {
+    &:not(:last-of-type) {
+      margin-right: 67px;
+      margin-bottom: 0;
+    }
+  }
+  &__link {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.215;
+    color: $colorFont1;
+    &:hover,
+    &:focus {
+      color: $colorFont4;
+    }
+    
+  }
+}
+}

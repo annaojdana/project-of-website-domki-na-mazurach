@@ -1,0 +1,24 @@
+
+@import "./utilis/variables";
+
+// ANIMACJE
+// @import './utils/animations';
+
+
+@import "./base/common";
+@import "./base/section";
+
+// // KOMPONENTY UNIWERSALNE
+@import './components/menu';
+@import './components/logo';
+@import './components/slick';
+
+
+@import "./layout/navigation";
+@import "./layout/header";
+@import "./layout/about";
+@import "./layout/offer";
+@import "./layout/attractions";
+@import "./layout/gallery";
+@import "./layout/footer";
+
