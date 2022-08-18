@@ -795,4 +795,61 @@ button {
     margin-bottom: 0;
   }
 }
+
+.attraction {
+  padding: 15px 0 110px;
+}
+
+.attraction__introduction {
+  display: none;
+}
+
+.attraction__list {
+  list-style: disc;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.attraction__item {
+  font-size: 14px;
+  line-height: 2.142;
+}
+
+.attraction__item:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.attraction__title {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: #CFA910;
+}
+
+@media screen and (min-width: 768px) {
+  .attraction {
+    padding: 15px 0 200px;
+  }
+  .attraction__introduction {
+    display: block;
+    width: 730px;
+    margin: 0 auto 70px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4d4d4d;
+  }
+  .attraction__list {
+    margin: 0 auto;
+    width: 668px;
+  }
+  .attraction__title {
+    font-size: 18px;
+  }
+  .offer-link {
+    display: none;
+  }
+  .gallery-in-attraction {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */
