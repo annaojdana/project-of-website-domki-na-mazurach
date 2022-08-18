@@ -370,12 +370,12 @@ button {
 }
 
 .slick-next {
-  background-image: url("../../images/next_arrow.svg");
+  background-image: url("./images/next_arrow.svg");
   right: 0;
 }
 
 .slick-prev {
-  background-image: url("../../images/prev_arrow.svg");
+  background-image: url("./images/prev_arrow.svg");
 }
 
 .navbar__wrapper {
